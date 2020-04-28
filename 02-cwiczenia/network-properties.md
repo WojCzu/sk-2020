@@ -30,10 +30,13 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+pc1: ping 10.0.15.4
+pc2: ping 10.0.15.6
 ```
 
 Efekt
 ```
+nawiązano połączenie
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -56,10 +59,22 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+pc1: ping 192.168.10.11
+pc2: ping 192.168.10.10
 ```
 
 Efekt
 ```
+nawiazano polacznie
+```
+Polecenie
+```
+pc1: ping 172.16.100.100
+```
+
+Efekt
+```
+nie nawiazano polacznia
 ```
 
 Nowa statyczna konfiguracja 
@@ -79,10 +94,13 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+pc1: ping 10.0.16.6
+pc2: ping 10.0.15.4
 ```
 
 Efekt
 ```
+nie nawiazano polacznia
 ```
 
 ### Utrwalenie konfiguracji
@@ -94,9 +112,9 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
+| Lokalizacja pliku z konfiguracją sieci| etc/network/interfaces| |
+| UP -> Wyłączenie interfejsu sieciowego| ip link set eth1 up| |
+| DOWN -> Włączenie interfejsu sieciowego| ip link set eth1 down| |
 | Sprawdzenie obecnych parametrów | | |
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
