@@ -9,15 +9,16 @@
 ### Jak policzyć?
 #### Adres sieci
 
-1. 
-2.
-3.
+1. Adres IP oraz maske zamienić na zapis binarny
+2. Wykonać operację bit and
+3. Zamienić na zapis dziesiętny
 
 #### Adres rozgłoszeniowy
 
-1. 
-2.
-3.
+1. Adres IP oraz maske zamienić na zapis binarny
+2. Na masce wykonac operację negacji (bit not)
+3. Wykonać operację bit or na adresie sieci i odwrotności maski
+4. Zamienić na zapis binarny
 
 
 ## Podział na równą ilość podsieci
