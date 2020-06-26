@@ -18,6 +18,9 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 * Wykorzystać podsieć rozmiaru /22 pozwalającej zaadresować co najmniej 600 urządzeń
 
 ## Dokumentacja
+
+![zadanie 1](zad3.png)
+
    1. Konfiguracja NAT
    
    ![zadanie 1](nat.png)
