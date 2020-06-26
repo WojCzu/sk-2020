@@ -41,3 +41,4 @@ Konfiguracja statyczna:
 |   Router1  | 10.10.0.1 | 255.255.252.0 | 10.10.0.1  | 10.10.0.2  |
 
 Router1 posiada 2 interface: fastethernet 0/0 z adresem 10.10.0.1/22 oraz serial1/0 z adresem 192.168.200.240/27
+PC0 i PC1 posiadają protokół dynamicznego konfigurowania hostów.
