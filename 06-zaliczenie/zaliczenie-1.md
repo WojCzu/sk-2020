@@ -13,7 +13,8 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
  * Adresy poszczególnych sieci IP
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
-  | Siec   | Adres sieci | Host min     | Host max      | Adres rozgłoszeniowy |
+
+| Siec   | Adres sieci | Host min     | Host max      | Adres rozgłoszeniowy |
 | -------------     |:-------------: | -----:       | -----:        | -----:    |
 |   LAN1       | 192.168.0.0 | 192.168.0.1   | 192.168.3.254 | 192.168.3.255  |
 |   LAN2     | 192.168.8.0 |   192.168.8.1  | 192.168.11.254 | 192.168.11.255 |
