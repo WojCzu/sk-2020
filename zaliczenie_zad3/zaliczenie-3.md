@@ -18,10 +18,10 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 * Wykorzystać podsieć rozmiaru /22 pozwalającej zaadresować co najmniej 600 urządzeń
 
 ## Dokumentacja
-    1. Konfiguracja NAT
-    ![zadanie 1](nat.png)
-    2. Konfiguracja DHCP
-    ![zadanie 1](dhcp.png)
-    3. Konfiguracja DNS
-    ![zadanie 1](dns.png)
-    4. Konfiguracja interfejsów sieciowych
+   1. Konfiguracja NAT
+   ![zadanie 1](nat.png)
+   2. Konfiguracja DHCP
+   ![zadanie 1](dhcp.png)
+   3. Konfiguracja DNS
+   ![zadanie 1](dns.png)
+   4. Konfiguracja interfejsów sieciowych
