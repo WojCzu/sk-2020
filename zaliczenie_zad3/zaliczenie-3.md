@@ -21,11 +21,23 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
    1. Konfiguracja NAT
    
    ![zadanie 1](nat.png)
+   
    2. Konfiguracja DHCP
    
    ![zadanie 1](dhcp.png)
+   
    3. Konfiguracja DNS
    
    ![zadanie 1](dns.png)
-   4. Konfiguracja interfejsów sieciowych
    
+   4. Konfiguracja interfejsów sieciowych
+
+Konfiguracja statyczna:
+
+| Nazwa urządzenia   | Adres | Maska     | Gateway     | DNS |
+| -------------     |:-------------: | -----:       | -----:  | -----:   |
+|   Printer0 | 10.10.0.3  | 255.255.252.0    | 10.10.0.1| 10.10.0.2  |
+|   Server0  | 10.10.0.2 |   255.255.252.0   | 10.10.0.1  | 10.10.0.2|
+|   Router1  | 10.10.0.1 | 255.255.252.0 | 10.10.0.1  | 10.10.0.2  |
+
+Router1 posiada 2 interface: fastethernet 0/0 z adresem 10.10.0.1/22 oraz serial1/0 z adresem 192.168.200.240/27
